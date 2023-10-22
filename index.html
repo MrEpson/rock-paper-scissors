@@ -3,13 +3,36 @@
 
 <head>
   <meta charset="utf-8">
+  <link rel="stylesheet" href="style.css">
   <title>Rock Paper Scissors</title>
 </head>
 
 <body>
-  <div>To start the game, press the button below!</div>
-  <div>To see the results, please open the console (F12 key)</div>
-  <button type="button" onclick="game()">Play!</button>
+  <h1>Rock Paper Scissors</h1>
+
+  <div id="roundCounter"></div>
+
+  <div id="score">
+    <div id="player">
+      <div id="playerOutput"></div>
+      <div id="playerPoints"></div>
+    </div>
+
+    <div id="computer">
+      <div id="computerOutput"></div>
+      <div id="computerPoints"></div>
+    </div>
+  </div>
+  
+  <div id="roundOutput"></div>
+  <div id="gameResult"></div>
+
+  <div id="buttons">
+    <button type="button" id="Rock">Rock</button>
+    <button type="button" id="Paper">Paper</button>
+    <button type="button" id="Scissors">Scissors</button>
+  </div>
+  
   <script src="script.js"></script>
 </body>
 
