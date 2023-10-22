@@ -1,0 +1,31 @@
+body {
+  display: flex;
+  box-sizing: border-box;
+  flex-direction: column;
+  font-family: Tahoma, Verdana, sans-serif;
+  margin: 0;
+  align-items: center;
+  justify-content: center;
+}
+
+#score {
+  display: flex;
+  gap: 25px;  
+  margin: 10px 0px;
+}
+
+#buttons {
+  margin-top: 10px;
+}
+
+#player,
+#computer {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  text-align: center;
+}
+
+#roundOutput {
+  margin-bottom: 10px;
+}
